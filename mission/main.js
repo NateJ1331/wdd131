@@ -19,6 +19,6 @@ function changeTheme() {
         document.body.style.color = ("black");
         pageContent.style.borderColor = ("black");
         underline.style.borderColor = ("black");
-        logo.setAttribute('src','assets/byui-logo-blue.png')
+        logo.setAttribute('src','assets/byui-logo-blue.webp')
     }
 }     
