@@ -42,6 +42,7 @@ img{
     padding: 5px;
     border: gray solid;
     background-color: white;
+    object-fit: cover;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     
 }
