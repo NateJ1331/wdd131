@@ -56,7 +56,7 @@ articles.forEach(review => {
             <div class = "book">
                 <h2>${review.title}</h2>
                 <img src=${review.imgSrc} alt = ${review.imgAlt}>
-                <p>${review.title}/p>
+                <p>${review.title}</p>
             </div>`
             
 
