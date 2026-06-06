@@ -44,3 +44,12 @@ button {
 button:hover {
   background: #b2d6e6;
 }
+
+#studentIdContainer[hidden], #accessCodeContainer[hidden] {
+  display: none;
+}
+
+#output {
+  margin-top: 1rem;
+  font-weight: bold;
+}

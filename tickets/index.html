@@ -40,7 +40,17 @@
             <option value="Student">Student</option>
             <option value="Guest">Guest</option>
         </select>
-</div>
+    </div>
+
+    <div id="studentIdContainer" class="field full" hidden>
+        <label for="ID">Student ID</label>
+        <input id="studentID" name="SID" type="number" />
+    </div>
+    <div id="accessCodeContainer" class="field full" hidden>
+        <label for="Code">Acess Code</label>
+        <input id="accessCode" name="ACode" type="text" />
+    </div>
+
     <button class="full" type="submit">Create Ticket</button>
     <section id="output" aria-live="polite"></section>
 </form>
