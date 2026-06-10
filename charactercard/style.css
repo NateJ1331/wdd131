@@ -1,0 +1,20 @@
+#character{
+    margin: 2% 35%;
+    border: solid 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    display: block;
+    height: auto;   
+}
+#info{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: normal; 
+}
