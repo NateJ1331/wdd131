@@ -131,7 +131,7 @@ function difficultyTemplate(rating) {
     return html
   }
 
-function hikesTemplate(hike) {
+ function hikesTemplate(hike) {
     return `<div class="hike-card">
   <div class="hike-content">
     <h2>${hike.name}</h2>
@@ -153,7 +153,6 @@ function renderHike(hike) {
 function init() {
     renderHike(hikes[randomNum]);
 }
-
 
 
 init();

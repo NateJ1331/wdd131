@@ -8,6 +8,7 @@
     <title>Recipie Book</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
 
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
     <meta property="og:type" content="website">
@@ -36,30 +37,30 @@
     <a id = "website_logo" href="#"><img src="images/recipe-book.png" alt="recipe book"></a>
 </div>
 <div class = "search_box">
-    <p>Find a recipe</p>
-    <a id = "search_icon" href="#"><img src="images/search.svg" alt="search icon"></a>
+    <input id = "search" type ="text", placeholder="Find a recipe">
+    <button id = "search_button"><img src="images/search.svg" alt="search icon"></button>
 </div>
-<div class = "recipe">
-    <a href="#"><img src="images/apple-crisp.jpg" alt="apple crisp"></a>
-
-
+<div id = "recipeContainer">
+    <!-- <a href="#"><img src="images/apple-crisp.jpg" alt="apple crisp"></a>
     <div class = "recipe_text">
-    <p class = "recipe_name">Apple Crisp</p>
-    <p class = "hidden">The apple crisp recipe is simple yer delicous fall dessert thats great serverd 
-        warm with vanilla ice cream.</p>
-    <span
-    class="rating"
-    role="img"
-    aria-label="Rating: 4 out of 5 stars"
-    >
-    <span aria-hidden="true" class="icon-star">⭐</span>
-    <span aria-hidden="true" class="icon-star">⭐</span>
-    <span aria-hidden="true" class="icon-star">⭐</span>
-    <span aria-hidden="true" class="icon-star">⭐</span>
-    <span aria-hidden="true" class="icon-star-empty">☆</span>
-    </span>
-    </div>
-</div>                
+        <div class = "tags"><button>dessert</button></div>
+        <p class = "recipe_name">Apple Crisp</p>
+        <p class = "hidden">The apple crisp recipe is simple yer delicous fall dessert thats great serverd 
+            warm with vanilla ice cream.</p>
+        <p></p>
+        <span
+        class="rating"
+        role="img"
+        aria-label="Rating: 4 out of 5 stars"
+        >
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star-empty">☆</span>
+        </span>
+    </div> -->                
+</div>
 </main>
 <footer>                   
 <div class="social">
